@@ -1,6 +1,6 @@
 :root{
     --cor-de-fundo: #1e1e1e;
-    --verde: #6FFF57;
+    --verde: #57ff65;
     --branco: #FFFFFF;
     --botao-ativo: #3A375E;
     --botao-inativo: rgba(58,55,94,0.5);
@@ -13,3 +13,34 @@ body {
     color: var (--branco);
     font-family:´chakra petch´, sans-serif;
 }
+  .conteudo-principal {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+
+}
+  .titulo-principal {
+      text-align: left;
+      width:  100%;
+      font-size: 32px;
+}
+  .titulo-principal samp { 
+      color: var(--verde);
+ }
+  .botao {
+       font-family:"crakra petch", sans-serif;
+       background-color:  var(--botao-inativo);
+       color: var(--branco);
+       display: flex;
+       justify-content: center;
+       padding: 1em;
+       font-size: 18px;
+       align-items: center;
+       width: 100%;
+
+  }
+  
